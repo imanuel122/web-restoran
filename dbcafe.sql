@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 27, 2025 at 01:09 PM
+-- Generation Time: Jun 27, 2025 at 02:06 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -236,7 +236,8 @@ INSERT INTO `tbl_user` (`id`, `nama`, `username`, `level`, `nohp`, `alamat`, `pa
 (4, 'dapur', 'dapur@gmail.com', 4, '081234567894', 'jl.mawar', '$2y$10$2m.QUuJcpZ8iQWpdShgb2uKNfV/L46H7ln0yCccIi8eFWJSgfhxnK', 'dapur@gmail.com.jpg'),
 (9, 'Imanuel', 'imanuel@gmail.com', 1, '081234567895', 'jl.bkkbn\r\n\r\n', '$2y$10$Cr0YJiT4QIRd6QlEnrFiiO1bTp2bUE3xPoJdfSw.zQgDSOvvUjE7q', 'imanuel@gmail.com.jpg'),
 (33, 'wili', 'wili@gmail.com', 1, '081234567896', 'jl. bahagiaaaaa', '$2y$10$GsXjXzqdXQT6N3mF2PcR0uYjxnrOjqLEQFt3ennHbCY6ztQJ9l2cW', 'wili@gmail.com.jpg'),
-(48, 'flora', 'flora@gmail.com', 1, '081277098515', 'jl. makmur No.177', '$2y$10$h2EzLOkLnNc9wH5p94em/OxgRGz.F/XwlpyzaXc7UNUjWNGlKO2JS', 'flora@gmail.com.jpg');
+(48, 'flora', 'flora@gmail.com', 1, '081277098515', 'jl. makmur No.177', '$2y$10$h2EzLOkLnNc9wH5p94em/OxgRGz.F/XwlpyzaXc7UNUjWNGlKO2JS', 'flora@gmail.com.jpg'),
+(50, 'test', 'test@gmail.com', 1, '081234567000', 'jl. garuda', '12345', '');
 
 --
 -- Indexes for dumped tables
@@ -308,7 +309,7 @@ ALTER TABLE `tbl_list_order`
 -- AUTO_INCREMENT for table `tbl_user`
 --
 ALTER TABLE `tbl_user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
 
 --
 -- Constraints for dumped tables
